@@ -15,3 +15,11 @@ ChaCha20 is a stream cipher widely used in modern cryptographic systems due to i
 ## Encryption
 
 Chacha20 encrypts data using 20 rounds of QR, which is a function that mixes the input data, using as base functions: add, xor, and rotate.
+
+## Running the code
+
+To run chacha20 in C, simply compile the code using:
+
+```gcc -o test_chacha20 chacha20.c test_chacha20.c
+./test_chacha20
+```
