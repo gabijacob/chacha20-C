@@ -20,6 +20,5 @@ Chacha20 encrypts data using 20 rounds of QR, which is a function that mixes the
 
 To run chacha20 in C, simply compile the code using:
 
-```gcc -o test_chacha20 chacha20.c test_chacha20.c
-./test_chacha20
-```
+```gcc -o test_chacha20 chacha20.c test_chacha20.c```
+```./test_chacha20```
